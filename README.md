@@ -1,6 +1,6 @@
 # WordNet to SQLite
 
-This repo provides a Python script to convert WordNet's word data into a SQLite database with the unique combinations of word & type, with structure:
+This repo provides a Python script to convert WordNet's word data (`/wordnet-data`) into a SQLite database (`words.db`) with unique combinations of word & type, with structure:
 
 ```
 words (word TEXT, type TEXT, definitions TEXT)
