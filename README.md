@@ -42,3 +42,5 @@ If you wish to recreate `words.db` from scratch, you can:
 1. Download `WNdb-3.0.tar.gz` from [WordNet](https://wordnet.princeton.edu/download/current-version).
 2. Extract it, and place the `data.x` files in `/wordnet-data/`.
 3. Run `py wordnet-to-sqlite.py`.
+
+Notes on WordNet's data files [are here](https://wordnet.princeton.edu/documentation/wndb5wn), this repo just does a "dumb" parse then filters out numerical data.
