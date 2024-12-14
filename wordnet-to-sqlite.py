@@ -1,7 +1,9 @@
 import sqlite3
 import os
 import re
+from better_profanity import profanity
 
+profanity.load_censor_words()
 wordnet_path = 'wordnet-data'
 db_path = 'words.db'
 
@@ -24,13 +26,22 @@ CREATE TABLE IF NOT EXISTS words (
 
 def parse_wordnet():
     def is_valid_word(word, definition):
-        return word.islower() and word.isalpha() and len(word) > 1 and not is_roman_numeral(word, definition)
+        return (
+            word.islower() and
+            word.isalpha() and
+            len(word) > 1 and
+            not is_roman_numeral(word, definition) and
+            not is_profanity(word)
+        )
 
     def clean_word(word):
         return re.sub(r'\(.*?\)', '', word).strip()
 
     def is_roman_numeral(word, definition):
         return re.match(r'^[ivxlcdm]+$', word) is not None and (definition.startswith('being') or definition.startswith('denoting a quantity'))
+
+    def is_profanity(word):
+        return profanity.contains_profanity(word):
 
     def parse_file(file_path, word_type, word_dict):
         with open(file_path, 'r') as f:
@@ -54,6 +65,8 @@ def parse_wordnet():
     parse_file(os.path.join(wordnet_path, 'data.verb'), 'verb', word_dict)
     parse_file(os.path.join(wordnet_path, 'data.adj'), 'adjective', word_dict)
     parse_file(os.path.join(wordnet_path, 'data.adv'), 'adverb', word_dict)
+
+    print(f"Number of words: {len(word_dict)}")
 
     # Insert all collected data into the database
     for (word, word_type), definitions in word_dict.items():

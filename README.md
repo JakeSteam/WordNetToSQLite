@@ -25,9 +25,11 @@ Word definitions for the same `type` are combined (e.g. with the noun `article`,
 
 - `word`:
   - Any words with uppercase letters (e.g. proper nouns) are removed.
+  - Any 1 character words are removed.
   - Any words with numbers are removed.
   - Any words with other characters (apostrophes, spaces) are removed.
-  - Roman numerals are excluded (e.g. `XVII`).
+  - Most profane words (133) are removed using [better_profanity 0.6.1](https://github.com/snguyenthanh/better_profanity). This isn't perfect for biological words, but works quite well on the higher priority slurs.
+  - Roman numerals are removed (e.g. `XVII`).
 - `type`:
   - Always `adjective` / `adverb` / `noun` / `verb`.
 - `definition`:
