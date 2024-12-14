@@ -43,4 +43,10 @@ If you wish to recreate `words.db` from scratch, you can:
 2. Extract it, and place the `data.x` files in `/wordnet-data/`.
 3. Run `py wordnet-to-sqlite.py`.
 
+The raw data looks like this ("unknown" is the only valid noun to extract):
+
+```
+08632096 15 n 03 unknown 0 unknown_region 0 terra_incognita 0 001 @ 08630985 n 0000 | an unknown and unexplored region; "they came like angels out the unknown"
+```
+
 Notes on WordNet's data files [are here](https://wordnet.princeton.edu/documentation/wndb5wn), this repo just does a "dumb" parse then filters out numerical data.
