@@ -24,10 +24,13 @@ CREATE TABLE IF NOT EXISTS words (
 
 def parse_wordnet():
     def is_valid_word(word):
-        return word.islower() and '-' not in word and '_' not in word
+        return word.islower() and word.isalpha() and not is_roman_numeral(word)
 
     def clean_word(word):
         return re.sub(r'\(.*?\)', '', word).strip()
+
+    def is_roman_numeral(word):
+        return re.match(r'^[ivxlcdm]+$', word) is not None
 
     def parse_file(file_path, word_type, word_dict):
         with open(file_path, 'r') as f:
@@ -42,7 +45,7 @@ def parse_wordnet():
                     if is_valid_word(word):
                         key = (word, word_type)
                         if key in word_dict:
-                            word_dict[key] += " | " + definition
+                            word_dict[key] += "#" + definition
                         else:
                             word_dict[key] = definition
 

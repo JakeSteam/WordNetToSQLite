@@ -1,4 +1,0 @@
-Files aren't included, to convert WordNet database to SQLite:
-1. Download `WNdb-3.0.tar.gz` from [WordNet](https://wordnet.princeton.edu/download/current-version).
-2. Extract, and place the `data.x` files in this folder.
-3. `py wordnet-to-sqlite.py`
