@@ -1,0 +1,5 @@
+# Data files
+tools/dictionary/wordnet-data-files/data.*
+
+# Output
+tools/dictionary/words.db
