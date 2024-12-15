@@ -3,7 +3,7 @@ import os
 import re
 from better_profanity import profanity
 
-profanity.load_censor_words()
+profanity.load_censor_words(whitelist_words=['horny'])
 wordnet_path = 'wordnet-data'
 db_path = 'words.db'
 
@@ -31,7 +31,7 @@ def parse_wordnet():
             word.isalpha() and
             len(word) > 1 and
             not is_roman_numeral(word, definition) and
-            not is_profanity(word)
+            not is_profanity(word) 
         )
 
     def clean_word(word):
@@ -41,7 +41,17 @@ def parse_wordnet():
         return re.match(r'^[ivxlcdm]+$', word) is not None and (definition.startswith('being') or definition.startswith('denoting a quantity'))
 
     def is_profanity(word):
-        return profanity.contains_profanity(word):
+        if profanity.contains_profanity(word):
+            print(f"Removed word: {word}")
+            return True
+        return False
+
+    # There are many false positives, so keep word but remove definition
+    def clean_definition(definition):
+        if profanity.contains_profanity(definition):
+            print(f"Removed definition: {definition}")
+            return ""
+        return definition
 
     def parse_file(file_path, word_type, word_dict):
         with open(file_path, 'r') as f:
@@ -49,7 +59,7 @@ def parse_wordnet():
                 if line.startswith(' '):
                     continue
                 parts = line.split('|')
-                definition = parts[1].strip().split(';')[0]
+                definition = clean_definition(parts[1].strip().split(';')[0])
                 word_info = parts[0].split()
                 words = [clean_word(word_info[i]) for i in range(4, len(word_info), 2)]
                 for word in words:

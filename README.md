@@ -1,10 +1,12 @@
 # WordNet to SQLite
 
-This repo provides a Python script to convert WordNet's word data (`/wordnet-data`) into a SQLite database (`words.db`) with unique combinations of word & type, with structure:
+This repo provides a Python script to convert WordNet's word data (`/wordnet-data`) into a SQLite database (`words.db`) with 70,433 unique combinations of word & type, with structure:
 
 ```
 words (word TEXT, type TEXT, definitions TEXT)
 ```
+
+The intended purpose is for a word game, so non-words, proper nouns, and profanity have been removed where possible.
 
 ## Sample contents
 
@@ -28,14 +30,17 @@ Word definitions for the same `type` are combined (e.g. with the noun `article`,
   - Any 1 character words are removed.
   - Any words with numbers are removed.
   - Any words with other characters (apostrophes, spaces) are removed.
-  - Most profane words (133) are removed using [better_profanity 0.6.1](https://github.com/snguyenthanh/better_profanity). This isn't perfect for biological words, but works quite well on the higher priority slurs.
+  - Most profane words (133) are removed.
   - Roman numerals are removed (e.g. `XVII`).
 - `type`:
   - Always `adjective` / `adverb` / `noun` / `verb`.
 - `definition`:
-  - Definition of the word, may contain multiple if the word appears as a synonym for another word.
+  - Definition of the word, will contain multiple separated by `#` if the word appears as a synonym for another word.
+  - Most profane definitions (385) are replaced with empty space.
   - May contain bracketed usage information, e.g. `(dated)`.
   - May contain special characters like `'`, `$`, `!`, `<`, `[`, etc.
+
+Profanity removal (90% of the processing time) is performed using [better_profanity 0.6.1](https://github.com/snguyenthanh/better_profanity) (with a whitelist for the word "horny", only used in a lizard context). This isn't perfect for biological words, but works quite well on the higher priority slurs. A full list of removed words and definitions is available in [removed-data.txt](/notes/removed-data.txt).
 
 ## Reproducing results
 
@@ -50,5 +55,7 @@ The raw data looks like this ("unknown" is the only valid noun to extract):
 ```
 08632096 15 n 03 unknown 0 unknown_region 0 terra_incognita 0 001 @ 08630985 n 0000 | an unknown and unexplored region; "they came like angels out the unknown"
 ```
+
+This script takes 10-15 seconds on an average laptop. Efficiency is not a priority (with profanity removal taking the majority of the time), as the output database only needs generating once ever.
 
 Notes on WordNet's data files [are here](https://wordnet.princeton.edu/documentation/wndb5wn), this repo just does a "dumb" parse then filters out numerical data.
