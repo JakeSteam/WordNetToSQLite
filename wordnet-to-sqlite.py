@@ -54,9 +54,9 @@ def parse_wordnet():
         return definition
 
     def parse_file(file_path, word_type, word_dict):
-        with open(file_path, 'r') as f:
+        with open(file_path, 'r', encoding='utf-8') as f:
             for line in f:
-                if line.startswith(' '):
+                if line.startswith(' ') or not line.strip():
                     continue
                 parts = line.split('|')
                 definition = clean_definition(parts[1].strip().split(';')[0])

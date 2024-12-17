@@ -7,13 +7,13 @@ Removed word: fingering
 Removed definition: the act of enticing a person to do something wrong (as an offer of sex in return for money)
 Removed definition: delivery in which forceps are inserted through the vagina and used to grasp the head of the fetus and pull it through the birth canal
 Removed definition: muscular contraction that causes the vagina to close
-Removed definition: the commercial exploitation of sex or sexuality or explicit sexual material
+Removed definition: the commercial exploitation of sex or sexuality or explicit sexual material      
 Removed definition: blunt or penetrating trauma or rape (vaginal or anal)
 Removed definition: a game in which a pitcher allows the opposing team 5 hits
 Removed word: orgy
 Removed word: skank
 Removed definition: erotic dancing with little or no clothing
-Removed definition: a form of erotic entertainment in which a dancer gradually undresses to music
+Removed definition: a form of erotic entertainment in which a dancer gradually undresses to music    
 Removed word: dink
 Removed definition: medical practice that provides health care regardless of age or sex while placing emphasis on the family unit
 Removed definition: visual examination of the colon (with a colonoscope) from the cecum to the rectum
@@ -27,9 +27,9 @@ Removed definition: surgical incision of the perineum to enlarge the vagina and 
 Removed definition: surgical procedure that creates an opening from the ileum through the abdominal wall to function as an anus
 Removed definition: plastic surgery to lift or reshape the breasts
 Removed definition: operation to bring an undescended testicle into the scrotum
-Removed definition: reconstructive surgery on the penis to repair congenital abnormality or injury
+Removed definition: reconstructive surgery on the penis to repair congenital abnormality or injury   
 Removed definition: reconstructive surgery of the anus or rectum
-Removed definition: surgical procedures and hormonal treatments designed to alter a person's sexual characteristics so that the resemble those of the opposite sex
+Removed definition: surgical procedures and hormonal treatments designed to alter a person's sexual characteristics so that they resemble those of the opposite sex
 Removed definition: irrigation with a jet of water or medicated solution into or around a body part (especially the vagina) to treat infections or cleanse from odorous contents
 Removed word: douche
 Removed definition: an injection of a liquid through the anus to stimulate evacuation
@@ -48,6 +48,7 @@ Removed word: bondage
 Removed word: sex
 Removed definition: the introduction of semen into the genital tract of a female
 Removed definition: the introduction of semen into the oviduct or uterus by some means other than sexual intercourse
+Removed definition: sexual activity between individuals, especially the insertion of a man's penis into a woman's vagina until orgasm and ejaculation occur
 Removed word: fuck
 Removed word: fucking
 Removed word: ass
@@ -64,9 +65,9 @@ Removed definition: slang for fellatio
 Removed word: blowjob
 Removed definition: oral sex practiced simultaneously by two people
 Removed word: wank
-Removed definition: a sexual attraction to (or sexual relations with) persons of the same sex
-Removed definition: a term formerly used to mean taking on the gender role of the opposite sex
-Removed definition: a sexual attraction to (or sexual relations with) persons of the opposite sex
+Removed definition: a sexual attraction to (or sexual relations with) persons of the same sex        
+Removed definition: a term formerly used to mean taking on the gender role of the opposite sex       
+Removed definition: a sexual attraction to (or sexual relations with) persons of the opposite sex    
 Removed definition: sexual relations between a man and a boy (usually anal intercourse with the boy as a passive partner)
 Removed word: bestiality
 Removed definition: (especially of domestic fowl) breeding to reveal differential sex characteristics at hatching
@@ -82,6 +83,7 @@ Removed definition: conviction for rape
 Removed definition: in the American Civil War (1863) the Union armies of Hooker, Thomas, and Sherman under the command of Ulysses S. Grant won a decisive victory over the Confederate Army under Braxton Bragg
 Removed word: cock
 Removed definition: a cock bred and trained for fighting
+Removed definition: largest order of birds comprising about half the known species: rooks, finches, sparrows, tits, warblers, robins, wrens, swallows, etc.
 Removed definition: cock of the rocks
 Removed word: tit
 Removed word: cock
@@ -92,6 +94,7 @@ Removed definition: a bitch used for breeding
 Removed word: pussy
 Removed definition: tail especially of a mammal posterior to and above the anus
 Removed definition: sessile mossy aquatic animal having the anus of the polyp outside the crown of tentacles
+Removed definition: horses, asses, zebras, extinct animals
 Removed definition: wild horse of central Asia that resembles an ass
 Removed word: ass
 Removed definition: domestic beast of burden descended from the African wild ass
@@ -121,7 +124,7 @@ Removed definition: contraceptive device consisting of a sheath of thin rubber o
 Removed word: dyke
 Removed definition: a vibrating device that substitutes for an erect penis to provide vaginal stimulation
 Removed word: dildo
-Removed definition: a knob used to release the catch when opening a door (often called `doorhandle' in Great Britain)
+Removed definition: a knob used to release the catch when opening a door (often called ‘doorhandle’ in Great Britain)
 Removed word: douche
 Removed definition: clothing that is conventionally worn by the opposite sex (especially women's clothing when worn by a man)
 Removed word: fagot
@@ -154,7 +157,7 @@ Removed definition: (music) a knob on an organ that is pulled to change the soun
 Removed word: cock
 Removed definition: a small plug of medication designed for insertion into the rectum or vagina where it melts
 Removed definition: a bandage of elastic fabric applied to uplift a dependant part (as the scrotum or a pendulous breast)
-Removed definition: a hat (Cockney rhyming slang: `tit for tat' rhymes with `hat')
+Removed definition: a hat (Cockney rhyming slang: ‘tit for tat’ rhymes with ‘hat’)
 Removed definition: seal consisting of a coating of a tar or rubberlike material on the underside of a motor vehicle to retard corrosion
 Removed definition: a brassiere that lifts and supports the breasts
 Removed definition: alluring beauty or charm (often with sex-appeal)
@@ -204,7 +207,7 @@ Removed definition: deep veins of the clitoris
 Removed definition: deep dorsal vein of the clitoris
 Removed definition: superficial dorsal veins of the clitoris
 Removed definition: veins from the labia majora to the external pudendal vein
-Removed definition: veins that pass posterior from the labia majora to the internal pudendal vein
+Removed definition: veins that pass posterior from the labia majora to the internal pudendal vein    
 Removed definition: the sex chromosome that is present in both sexes: singly in males and doubly in females
 Removed definition: (genetics) normal complement of sex chromosomes in a female
 Removed definition: (genetics) abnormal complement of sex hormones in a male resulting in Klinefelter's syndrome
@@ -225,7 +228,7 @@ Removed word: cunt
 Removed word: pussy
 Removed word: twat
 Removed word: vulva
-Removed definition: a fold of tissue that partly covers the entrance to the vagina of a virgin
+Removed definition: a fold of tissue that partly covers the entrance to the vagina of a virgin       
 Removed definition: a liplike structure that bounds a bodily orifice (especially any of the four labiate folds of a woman's vulva)
 Removed definition: the two outer folds of the vulva
 Removed definition: the fissure between the labia majora
@@ -236,6 +239,7 @@ Removed word: clitoris
 Removed word: clit
 Removed definition: a gland in which gametes (sex cells) are produced
 Removed definition: a testis that fails to move into the scrotum as the male fetus develops
+Removed definition: the male sex organ
 Removed word: penis
 Removed definition: obscene terms for penis
 Removed word: cock
@@ -271,13 +275,13 @@ Removed word: arse
 Removed word: ass
 Removed definition: the sphincter muscle of the anus
 Removed definition: an external ring of striated muscle surrounding the anus
-Removed definition: an internal ring of smooth muscle formed by circular fibers of the rectum
+Removed definition: an internal ring of smooth muscle formed by circular fibers of the rectum        
 Removed word: crotch
 Removed definition: chronic itching of the skin around the anus
 Removed definition: an erotic dream (usually at night) accompanied by the (nocturnal) emission of semen
 Removed definition: a statistic characterizing human populations (or segments of human populations broken down by age or sex or income etc.)
 Removed definition: the branch of medicine dealing with the diagnosis and treatment of disorders of the colon or rectum or anus
-Removed definition: (from the Sanskrit word for `to see') one of six orthodox philosophical systems or viewpoints on the nature of reality and the release from bondage to karma
+Removed definition: (from the Sanskrit word for ‘to see’) one of six orthodox philosophical systems or viewpoints on the nature of reality and the release from bondage to karma
 Removed word: bullshit
 Removed word: shit
 Removed word: crap
@@ -309,9 +313,6 @@ Removed definition: Hindu god of love and erotic desire
 Removed word: coon
 Removed definition: a person who belongs to the sex that can have babies
 Removed definition: a person who belongs to the sex that cannot have babies
-Removed word: nigger
-Removed word: nigga
-Removed word: coon
 Removed word: chink
 Removed word: slut
 Removed word: ass
@@ -343,9 +344,10 @@ Removed word: fagot
 Removed word: faggot
 Removed word: fag
 Removed word: fucker
-Removed word: fucker
 Removed definition: a man who has sex with and is supported by a woman
 Removed word: twat
+Removed definition: a person having a sexual orientation to persons of the opposite sex
+Removed definition: someone who is sexually attracted to persons of the same sex
 Removed word: homo
 Removed word: hooker
 Removed word: hooker
@@ -377,7 +379,7 @@ Removed word: nob
 Removed word: wanker
 Removed definition: a person whose sexual identification is entirely with the opposite sex
 Removed definition: a person who has undergone a sex change operation
-Removed definition: someone who adopts the dress or manner or sexual role of the opposite sex
+Removed definition: someone who adopts the dress or manner or sexual role of the opposite sex        
 Removed definition: a member of the Germanic people who overran Gaul and Spain and North Africa and sacked Rome in 455
 Removed definition: a person who has never had sex
 Removed definition: a viewer who enjoys seeing the sex acts or sex organs of others
@@ -385,6 +387,7 @@ Removed definition: United States sculptor (born in France) noted for his large 
 Removed definition: United States pop singer and sex symbol during the 1980s (born in 1958)
 Removed definition: French sculptor of monumental female nudes (1861-1944)
 Removed definition: United States film actress noted for sex appeal (1926-1962)
+Removed definition: French soldier and writer whose descriptions of sexual perversion gave rise to the term ‘sadism’ (1740-1814)
 Removed definition: (biology) the existence of two or more forms of individuals within the same animal species (independent of sex differences)
 Removed definition: (biology) the existence of two forms of individual within the same animal species (independent of sex differences)
 Removed definition: any mechanical force that tends to retard or oppose motion
@@ -400,7 +403,7 @@ Removed definition: a smut fungus of the genus Ustilago causing a smut disease o
 Removed definition: a smut fungus attacking Indian corn
 Removed definition: a common smut attacking Indian corn causing greyish white swellings that rupture to expose a black spore mass
 Removed definition: genus of smut fungus
-Removed definition: smut fungus attacking heads of corn or sorghum and causing a covered smut
+Removed definition: smut fungus attacking heads of corn or sorghum and causing a covered smut        
 Removed definition: a family of smut fungi having a simple promycelium bearing the spores in an apical cluster
 Removed definition: a genus of smut fungi belonging to the family Tilletiaceae
 Removed definition: smut fungus causing blackish blisters on scales and leaves of onions
@@ -409,6 +412,7 @@ Removed definition: a parasitic fungus that can infect the mouth or the skin or 
 Removed definition: genus of imperfect fungi causing plant diseases like smut
 Removed definition: fungus causing green smut in rice
 Removed definition: the male sex organ of spore-producing plants
+Removed definition: (linguistics) omission at the beginning of a word as in ‘coon’ for ‘raccoon’ or ‘till’ for ‘until’
 Removed definition: the elimination of fecal waste through the anus
 Removed word: shitting
 Removed definition: the discharge of semen in males
@@ -450,14 +454,14 @@ Removed word: smut
 Removed definition: disease of wheat characterized by replacement of the grains with greasy masses of smelly smut spores
 Removed definition: smut affecting leaves and stems of cereals and other grasses
 Removed definition: hernia projecting into the vagina
-Removed definition: hernia in which the urinary bladder protrudes through the wall of the vagina
+Removed definition: hernia in which the urinary bladder protrudes through the wall of the vagina     
 Removed definition: protrusion or herniation of the rectum into the vagina
 Removed definition: syndrome in males that is characterized by small testes and long legs and enlarged breasts and reduced sperm production and mental retardation
 Removed definition: a serious chronic inflammatory disease of the large intestine and rectum characterized by recurrent episodes of abdominal pain and fever and chills and profuse diarrhea
 Removed definition: accumulation of blood in the vagina and uterus
 Removed definition: accumulation of menstrual blood in the vagina (usually due to an imperforate hymen)
 Removed definition: swelling of the scrotum
-Removed definition: pain caused by venous swelling at or inside the anal sphincter
+Removed definition: venous swelling external or internal to the anal sphincter
 Removed definition: pain in the rectum
 Removed definition: inflammation of the vagina
 Removed definition: inflammation of the vagina and bladder
@@ -471,6 +475,7 @@ Removed definition: hypertrophy of certain body parts (usually legs and scrotum)
 Removed definition: swelling of the scrotum resulting from chronic lymphatic obstruction
 Removed definition: accumulation of hardened feces in the rectum or lower colon which the person cannot move
 Removed word: bitch
+Removed definition: without clothing (especially in the phrase ‘in the nude’)
 Removed word: nude
 Removed definition: congenital condition in which external genitalia and internal sex organs have both male and female characteristics
 Removed definition: congenital condition in which a person has external genitalia of one sex and internal sex organs of the other sex
@@ -479,7 +484,6 @@ Removed definition: any disease or abnormality that is determined by the sex hor
 Removed definition: kraurosis of the vulva
 Removed definition: insufficient spermatozoa in the semen
 Removed definition: painful spasm of the anal sphincter along with an urgent desire to defecate without the significant production of feces
-Removed definition: condition in which a person assumes the identity and permanently acts the part of the gender opposite to his or her biological sex
 Removed definition: prolapse of the urethra into the vagina
 Removed definition: any hormone affecting the development and growth of sex organs
 Removed definition: male sex hormone that is produced in the testes and responsible for typical male sexual characteristics
@@ -493,6 +497,27 @@ Removed definition: a chemical that is added to a photographic developer in orde
 Removed word: spunk
 Removed definition: the time of life when sex glands become functional
 Removed definition: the time period during which only modern Homo sapiens was known to have existed
+Removed definition: the frothy mixture of lube and fecal matter that is sometimes the byproduct of anal sex
+Removed word: nigger
+Removed word: nigga
+Removed definition: a seductive man who uses his sex appeal to exploit women
+Removed word: cowgirl
+Removed definition: A sexual activity where fellatio is performed on multiple men
+Removed definition: Japanese pornography
+Removed definition: Ejaculate inside a vagina or anus
+Removed word: slut
+Removed definition: An East Asian Whore
+Removed definition: A sexual act where a married person has sex with another person while their spouse watches
+Removed word: fuck
+Removed definition: A smell of genitals or sex
+Removed definition: A friend with whom you have sex
+Removed definition: The name ‘ecdysteroid’ refers to the insect moulting and sex hormones which include ecdysone and its homologues such as 20-hydroxyecdysone.
+Removed definition: thoughts about sex or sexual encounters.
+Removed definition: An endoscopic instrument that magnifies the epithelia of the vagina and cervix in vivo to allow direct observation and study of these tissues.
+Removed definition: A sex toy is an object or device that is primarily used to facilitate human sexual pleasure, such as a dildo or vibrator.
+Removed definition: A cock ring is a ring that can be placed around a penis, usually at the base, primarily to slow the flow of blood from the erect penile tissue, thus maintaining an erection for a much longer period of time.
+Removed definition: A cock ring made of leather and animal hair.
+Removed definition: a trained person hired to determine the sex of chicken and other hatchlings.
 Removed word: douche
 Removed definition: dress in the clothes of the other sex
 Removed definition: introduce semen into (a female)
@@ -578,6 +603,9 @@ Removed definition: practice anal sex upon
 Removed word: whore
 Removed word: fag
 Removed word: retard
+Removed definition: to masturbate while chatting online
+Removed definition: to swallow ejaculate
+Removed definition: The act of ejaculating inside another person
 Removed definition: a stage in psychosexual development when the child's interest is concentrated on the anal region
 Removed word: anal
 Removed definition: discriminatory on the basis of sex (usually said of men's attitude toward women)
@@ -589,8 +617,6 @@ Removed word: bastard
 Removed word: shitty
 Removed definition: sexually attracted to members of the opposite sex
 Removed definition: sexually attracted to members of your own sex
-Removed definition: overwhelmingly desirous of being, or completely identifying with, the opposite sex
-Removed definition: receiving sexual gratification from wearing clothing of the opposite sex
 Removed definition: characterizing the family Hominidae, which includes Homo sapiens as well as extinct species of manlike creatures
 Removed word: bestial
 Removed definition: separated according to race, sex, class, or religion
@@ -611,6 +637,7 @@ Removed definition: having no or imperfectly developed or nonfunctional sex orga
 Removed word: busty
 Removed definition: having a breast or breasts
 Removed definition: characteristic of or befitting a slut or slattern
+Removed definition: receiving sexual gratification from wearing clothing of the opposite sex
 Removed definition: of or related to the anus
 Removed word: anal
 Removed definition: relating to or exhibiting both female and male sex organs but with a predominantly female appearance
@@ -630,11 +657,13 @@ Removed definition: around the anus
 Removed definition: of or relating to the external sex organs
 Removed definition: concerning characteristics that are determined by genes carried on the sex chromosomes (on the X chromosome in particular)
 Removed definition: of or involving the rectum
-Removed definition: of or related to or near the sigmoid colon and the upper part of the rectum
+Removed definition: of or related to or near the sigmoid colon and the upper part of the rectum      
 Removed definition: of or relating to the penis
 Removed definition: relating to or having or lying within a scrotum
 Removed definition: of or relating to the vagina
 Removed definition: (of the testis) remaining in the abdomen instead of descending into the scrotum
+Removed definition: in favour of rape, used derogatively
+Removed word: fucked
 Removed word: damn
 Removed word: fucking
 Removed definition: by incest
