@@ -3,7 +3,7 @@ Removed definition for 'penetration': mutual penetration
 Removed definition for 'sexual': the completion of marriage by sexual intercourse
 Removed definition for 'sexual': the moment of most intense pleasure in sexual intercourse
 Removed word: orgasm
-Removed definition for 'semen': an orgasm accompanied by the sensation of ejaculation of semen
+Removed definition for 'orgasm': an orgasm accompanied by the sensation of ejaculation of semen
 Removed word: fuckup
 Removed word: boner
 Removed definition for 'fucked': an acronym often used by soldiers in World War II: situation normal all fucked up
@@ -24,7 +24,7 @@ Removed word: quickie
 Removed word: quicky
 Removed word: souse
 Removed definition for 'humped': the act of bending yourself into a humped position
-Removed definition for 'sexual': the commercial exploitation of sex or sexuality or explicit sexual material
+Removed definition for 'sex': the commercial exploitation of sex or sexuality or explicit sexual material
 Removed word: molestation
 Removed definition for 'sexual': the physical or emotional or sexual mistreatment of children
 Removed definition for 'torture': the act of piercing with a sharpened stake as a form of punishment or torture
@@ -33,7 +33,7 @@ Removed definition for 'torture': a form of torture in which the soles of the fe
 Removed word: bastinado
 Removed definition for 'torture': a form of foot torture in which the feet are encased in iron and slowly crushed
 Removed definition for 'torture': a form of torture in which cigarettes or cigars or other hot implements are used to burn the victim's skin
-Removed definition for 'anal': blunt or penetrating trauma or rape (vaginal or anal)
+Removed definition for 'rape': blunt or penetrating trauma or rape (vaginal or anal)
 Removed definition for 'torture': torture that is sanctioned by the state and executed by duly accredited officials
 Removed definition for 'torture': a form of foot torture used by the Chinese in which the victim's foot was placed between three pieces of bamboo and systematically squeezed
 Removed definition for 'torture': a form of torture used by American Indians in which sensitive parts of the body were squeezed between two boards until the victim could bear no more
@@ -66,10 +66,10 @@ Removed definition for 'anus': a surgical operation that creates an opening from
 Removed definition for 'clitoris': excision of the clitoris
 Removed definition for 'anus': surgical procedure that creates an opening from the ileum through the abdominal wall to function as an anus
 Removed definition for 'testicles': surgical removal of one or both testicles
-Removed definition for 'scrotum': operation to bring an undescended testicle into the scrotum
+Removed definition for 'testicle': operation to bring an undescended testicle into the scrotum
 Removed definition for 'testis': surgical incision into the testis to obtain material for analysis (as in cases of abnormally low sperm count)
 Removed definition for 'penis': reconstructive surgery on the penis to repair congenital abnormality or injury
-Removed definition for 'rectum': reconstructive surgery of the anus or rectum
+Removed definition for 'anus': reconstructive surgery of the anus or rectum
 Removed definition for 'sexual': surgical procedures and hormonal treatments designed to alter a person's sexual characteristics so that they resemble those of the opposite sex
 Removed definition for 'testicles': neutering a male animal by removing the testicles
 Removed word: douche
@@ -84,7 +84,7 @@ Removed definition for 'genitals': the perverse act of exposing and attracting a
 Removed definition for 'sexual': sexual arousal or gratification resulting from handling a fetish (or a specific part of the body other than the sexual organs)
 Removed definition for 'sexual': a sexual attraction to children
 Removed word: pedophilia
-Removed definition for 'sexual': a perversion in which a person receives sexual gratification from seeing the genitalia of others or witnessing others' sexual behavior
+Removed definition for 'perversion': a perversion in which a person receives sexual gratification from seeing the genitalia of others or witnessing others' sexual behavior
 Removed definition for 'sexual': a sexual attraction to animals
 Removed word: zoophilia
 Removed word: perversion
@@ -101,7 +101,7 @@ Removed definition for 'sexual': the act of subjecting someone to unwanted or im
 Removed word: molestation
 Removed definition for 'sexual': the crime of forcing a person to submit to sexual intercourse against his or her will
 Removed word: rape
-Removed definition for 'rapist': rape in which the rapist is known to the victim (as when they are on a date together)
+Removed definition for 'rape': rape in which the rapist is known to the victim (as when they are on a date together)
 Removed definition for 'sexual': a statutory offense that provides that it is a crime to knowingly cause another person to engage in an unwanted sexual act by force or threat
 Removed word: gyp
 Removed definition for 'rectum': normal response to the presence of feces in the rectum
@@ -114,9 +114,9 @@ Removed definition for 'sexual': sexual stimulation without vaginal penetration
 Removed definition for 'sexual': sexual activity (especially sexual intercourse) with the use of measures (such as latex condoms) to avoid the transmission of disease (especially AIDS)
 Removed definition for 'sexual': activities associated with sexual intercourse
 Removed word: sex
-Removed definition for 'sexual': the act of depriving a woman of her virginity (especially by rupturing the hymen through sexual intercourse)
+Removed definition for 'hymen': the act of depriving a woman of her virginity (especially by rupturing the hymen through sexual intercourse)
 Removed definition for 'semen': the introduction of semen into the genital tract of a female
-Removed definition for 'sexual': the introduction of semen into the oviduct or uterus by some means other than sexual intercourse
+Removed definition for 'semen': the introduction of semen into the oviduct or uterus by some means other than sexual intercourse
 Removed definition for 'sexual': sexual activity between individuals, especially the insertion of a man's penis into a woman's vagina until orgasm and ejaculation occur
 Removed word: intercourse
 Removed word: coitus
@@ -140,14 +140,14 @@ Removed definition for 'sexual': voluntary sexual intercourse between persons no
 Removed definition for 'sexual': sexual intercourse between persons too closely related to marry (as between a parent and a child)
 Removed word: incest
 Removed definition for 'coitus': a method of birth control in which coitus is initiated but the penis is deliberately withdrawn before ejaculation
-Removed definition for 'anus': intercourse via the anus, committed by a man with a man or woman
+Removed definition for 'intercourse': intercourse via the anus, committed by a man with a man or woman
 Removed word: sodomy
 Removed word: buggery
 Removed definition for 'sexual': the sexual activity of conceiving and bearing offspring
 Removed definition for 'condom': birth control by the use of devices (diaphragm or intrauterine device or condom) or drugs or surgery
 Removed definition for 'sexual': mutual sexual fondling prior to sexual intercourse
 Removed definition for 'genital': affectionate play (or foreplay without contact with the genital organs)
-Removed definition for 'sexual': manual stimulation of the genital area for sexual pleasure
+Removed definition for 'genital': manual stimulation of the genital area for sexual pleasure
 Removed definition for 'sexual': an aberrant sexual practice
 Removed word: perversion
 Removed definition for 'genitals': oral stimulation of the genitals
@@ -159,9 +159,9 @@ Removed definition for 'fellatio': slang for fellatio
 Removed word: blowjob
 Removed definition for 'sex': oral sex practiced simultaneously by two people
 Removed definition for 'sexual': using your own body as a sexual object
-Removed definition for 'sexual': manual stimulation of the genital organs (of yourself or another) for sexual pleasure
+Removed definition for 'genital': manual stimulation of the genital organs (of yourself or another) for sexual pleasure
 Removed word: masturbation
-Removed definition for 'sexual': manual stimulation of your own genital organ for sexual pleasure
+Removed definition for 'genital': manual stimulation of your own genital organ for sexual pleasure
 Removed definition for 'masturbation': masturbation by rubbing against another person (as in a crowd)
 Removed definition for 'masturbation': slang for masturbation
 Removed word: wank
@@ -287,7 +287,7 @@ Removed definition for 'anal': fish having greatly elongated front rays on dorsa
 Removed definition for 'squirting': any of several small freshwater fishes that catch insects by squirting water at them and knocking them into the water
 Removed definition for 'anal': large food fish of warm waters worldwide having long anal and dorsal fins that with a caudal fin suggest a three-lobed tail
 Removed definition for 'marijuana': a particularly potent variety of marijuana
-Removed definition for 'herpes': an oral antiviral drug (trade name Zovirax) used to treat genital herpes
+Removed definition for 'genital': an oral antiviral drug (trade name Zovirax) used to treat genital herpes
 Removed definition for 'retards': an agent that retards or restrains the action of angiotensin II
 Removed definition for 'retards': medicine that prevents or retards the clotting of blood
 Removed definition for 'syphilis': a drug (or other chemical agent) that is effective against syphilis
@@ -300,7 +300,7 @@ Removed word: bastard
 Removed word: bastinado
 Removed definition for 'cocaine': low-grade cocaine mixed with coca paste and cannabis
 Removed definition for 'Nazi': a Nazi concentration camp for Jews created in northwestern Germany during World War II
-Removed definition for 'anal': a basin for washing genitals and anal area
+Removed definition for 'genitals': a basin for washing genitals and anal area
 Removed definition for 'heroin': street names for heroin
 Removed word: skag
 Removed word: scag
@@ -466,7 +466,7 @@ Removed definition for 'clitoris': veins that serve the clitoris
 Removed word: glans
 Removed definition for 'clitoris': small mass of erectile tissue at the end of the body of the clitoris
 Removed definition for 'penis': the conical mass of erectile tissue that forms the head of the penis
-Removed definition for 'rectum': any of several veins draining the walls of the anal canal and rectum
+Removed definition for 'anal': any of several veins draining the walls of the anal canal and rectum
 Removed definition for 'vulva': veins draining the lips of the vulva
 Removed definition for 'scrotum': veins passing from the scrotum to the pudendal veins
 Removed definition for 'testicles': a vein from the testicles
@@ -545,7 +545,7 @@ Removed word: testis
 Removed word: testicle
 Removed word: bollock
 Removed definition for 'testicles': a man's testicles
-Removed definition for 'scrotum': a testis that fails to move into the scrotum as the male fetus develops
+Removed definition for 'testis': a testis that fails to move into the scrotum as the male fetus develops
 Removed definition for 'testis': a convoluted tubule in each testis
 Removed definition for 'sperm': network of tubules carrying sperm from the seminiferous tubules to the vasa efferentia
 Removed definition for 'testis': the several highly convoluted tubules that lead from the rete testis to the vas deferens and form the head of the epididymis
@@ -562,7 +562,7 @@ Removed definition for 'clitoris': a fold of skin covering the tip of the clitor
 Removed word: foreskin
 Removed definition for 'testis': the efferent duct of the testis in man
 Removed definition for 'semen': either of a pair of glands located on either side of the male urinary bladder that open into the vas deferens and that secrete many components of semen during ejaculation
-Removed definition for 'scrotum': a structure resembling a cord that suspends the testis within the scrotum and contains the vas deferens and other vessels and nerves
+Removed definition for 'testis': a structure resembling a cord that suspends the testis within the scrotum and contains the vas deferens and other vessels and nerves
 Removed definition for 'anus': tubular passage of mucous membrane and muscle extending about 8.3 meters from mouth to anus
 Removed definition for 'anus': the part of the alimentary canal between the stomach and the anus
 Removed definition for 'rectum': beginning with the cecum and ending with the rectum
@@ -576,7 +576,7 @@ Removed word: arsehole
 Removed word: asshole
 Removed word: bunghole
 Removed definition for 'anus': a congenital defect of the anus
-Removed definition for 'genital': the general region between the anus and the genital organs
+Removed definition for 'anus': the general region between the anus and the genital organs
 Removed definition for 'nipple': ducts of the mammary gland that carry milk to the nipple
 Removed word: tit
 Removed word: titty
@@ -641,14 +641,14 @@ Removed definition for 'sexual': an offer for a private bargain (especially a re
 Removed definition for 'torture': interrogation often accompanied by torture to extort information or a confession
 Removed word: bitch
 Removed definition for 'sexual': (psychology) modifying the natural expression of an impulse or instinct (especially a sexual one) to one that is socially acceptable
-Removed definition for 'sexual': union of sperm and egg in sexual reproduction
+Removed definition for 'sperm': union of sperm and egg in sexual reproduction
 Removed word: chink
 Removed word: chug
 Removed definition for 'cock': an imitation of the crow of a cock
 Removed definition for 'cock': the cry of a cock (or an imitation of it)
 Removed definition for 'cock': the characteristic sound made by a turkey cock
 Removed definition for 'sexual': a change in a person's physical sexual characteristics (as by surgery and hormone treatments)
-Removed definition for 'coitus': fertilization of two or more ova released during the same menstrual cycle by sperm from separate acts of coitus (especially by different males)
+Removed definition for 'sperm': fertilization of two or more ova released during the same menstrual cycle by sperm from separate acts of coitus (especially by different males)
 Removed definition for 'ovum': fertilization of a second ovum after a pregnancy has begun
 Removed definition for 'retards': spin (usually of a moving ball) that retards or reverses the forward motion
 Removed definition for 'cocks': a match in a cockpit between two fighting cocks heeled with metal gaffs
@@ -860,7 +860,7 @@ Removed definition for 'sexual': a person having a sexual orientation to persons
 Removed word: hijacker
 Removed word: hijacker
 Removed word: hillbilly
-Removed definition for 'sex': someone who is sexually attracted to persons of the same sex
+Removed definition for 'sexually': someone who is sexually attracted to persons of the same sex
 Removed word: homo
 Removed definition for 'sperm': a tiny fully formed individual that (according to the discredited theory of preformation) is supposed to be present in the sperm cell
 Removed word: hooker
@@ -903,7 +903,7 @@ Removed definition for 'sexually': a sexually attractive young woman
 Removed definition for 'sexual': a woman with abnormal sexual desires
 Removed word: nympho
 Removed definition for 'sexual': a person who participates in (or is open to) sexual activities of many kinds
-Removed definition for 'sodomy': a man who has sex (usually sodomy) with a boy as the passive partner
+Removed definition for 'sex': a man who has sex (usually sodomy) with a boy as the passive partner
 Removed definition for 'sexually': an adult who is sexually attracted to children
 Removed word: pedophile
 Removed word: paedophile
@@ -912,7 +912,7 @@ Removed word: perv
 Removed word: pickaninny
 Removed word: piccaninny
 Removed word: picaninny
-Removed definition for 'pimp': someone who procures customers for whores (in England they call a pimp a ponce)
+Removed definition for 'whores': someone who procures customers for whores (in England they call a pimp a ponce)
 Removed word: pimp
 Removed definition for 'niggardly': a niggardly person who starves themself (and others)
 Removed word: pinko
@@ -1121,8 +1121,8 @@ Removed definition for 'sexual': applies to nonhuman mammals: a state or interva
 Removed definition for 'sexual': (of animals having several estrous cycles in one breeding season) a state or interval of sexual inactivity or quiescence between periods of activity
 Removed definition for 'sexual': a physiological need for sexual activity
 Removed definition for 'copulate': an inability (usually of the male animal) to copulate
-Removed definition for 'penis': impotence resulting from a man's inability to have or maintain an erection of his penis
-Removed definition for 'sexual': absence of an orgasm in sexual relations
+Removed definition for 'erection': impotence resulting from a man's inability to have or maintain an erection of his penis
+Removed definition for 'orgasm': absence of an orgasm in sexual relations
 Removed definition for 'cocaine': an addiction to cocaine
 Removed definition for 'heroin': an addiction to heroin
 Removed definition for 'gonads': incompetence of the gonads (especially in the male with low testosterone)
@@ -1155,7 +1155,7 @@ Removed definition for 'syphilis': a small rubbery granuloma that is characteris
 Removed definition for 'testis': malignant neoplasm of the testis
 Removed definition for 'testis': malignant tumor of the testis
 Removed definition for 'penis': inflammation of the head of the penis
-Removed definition for 'foreskin': inflammation of both the head of the penis and the foreskin
+Removed definition for 'penis': inflammation of both the head of the penis and the foreskin
 Removed definition for 'rectum': protrusion or herniation of the rectum into the vagina
 Removed definition for 'testes': syndrome in males that is characterized by small testes and long legs and enlarged breasts and reduced sperm production and mental retardation
 Removed definition for 'rectum': a serious chronic inflammatory disease of the large intestine and rectum characterized by recurrent episodes of abdominal pain and fever and chills and profuse diarrhea
@@ -1184,13 +1184,13 @@ Removed word: bitch
 Removed definition for 'pubic': infestation of the pubic hair by crab lice
 Removed definition for 'sex': congenital condition in which external genitalia and internal sex organs have both male and female characteristics
 Removed definition for 'sex': congenital condition in which a person has external genitalia of one sex and internal sex organs of the other sex
-Removed definition for 'glans': an abnormal tightness of the foreskin preventing retraction over the glans
+Removed definition for 'foreskin': an abnormal tightness of the foreskin preventing retraction over the glans
 Removed definition for 'spastic': abasia due to spastic contractions of the leg muscles
 Removed definition for 'sex': any disease or abnormality that is determined by the sex hormones
 Removed definition for 'sexually': sexually transmitted urethritis (usually caused by chlamydia)
 Removed definition for 'vulva': kraurosis of the vulva
 Removed definition for 'semen': insufficient spermatozoa in the semen
-Removed definition for 'defecate': painful spasm of the anal sphincter along with an urgent desire to defecate without the significant production of feces
+Removed definition for 'anal': painful spasm of the anal sphincter along with an urgent desire to defecate without the significant production of feces
 Removed definition for 'testes': dilatation of the veins associated with the spermatic cord in the testes
 Removed definition for 'sperm': waxy substance secreted by the sperm whale and found floating at sea or washed ashore
 Removed word: shag
@@ -1198,10 +1198,10 @@ Removed definition for 'retards': a substance that retards or stops an activity
 Removed definition for 'retards': (chemistry) a substance that retards a chemical reaction or diminishes the activity of a catalyst
 Removed definition for 'naked': fine-grained homogeneous rock (such as basalt) containing minerals undetectable by the naked eye
 Removed definition for 'sex': any hormone affecting the development and growth of sex organs
-Removed definition for 'sexual': male sex hormone that is produced in the testes and responsible for typical male sexual characteristics
+Removed definition for 'sex': male sex hormone that is produced in the testes and responsible for typical male sexual characteristics
 Removed definition for 'testes': a potent androgenic hormone produced chiefly by the testes
 Removed definition for 'sperm': a gonadotropic hormone that is secreted by the anterior pituitary and stimulates growth of Graafian follicles in female mammals, and activates the cells in male mammals that form sperm
-Removed definition for 'sexual': a general term for female steroid sex hormones that are secreted by the ovary and responsible for typical female sexual characteristics
+Removed definition for 'sex': a general term for female steroid sex hormones that are secreted by the ovary and responsible for typical female sexual characteristics
 Removed definition for 'heroin': a compound that is needed in order to refine opium into heroin
 Removed definition for 'slag': slag produced in making steel
 Removed definition for 'slag': pig iron containing a substantial proportion of slag
@@ -1249,7 +1249,7 @@ Removed word: jigaboo
 Removed definition for 'sex': a seductive man who uses his sex appeal to exploit women
 Removed definition for 'Guido': a general-purpose, multi-paradigm programming language for computers created by Guido van Rossum
 Removed definition for 'sexual': the community of people who have a non-normative gender and/or sexual identity, including lesbian, gay, bisexual, transgender, intersex, or asexual
-Removed definition for 'pimp': a man who procures customers for whores (in England they call a pimp a ponce)
+Removed definition for 'whores': a man who procures customers for whores (in England they call a pimp a ponce)
 Removed word: darky
 Removed word: darkie
 Removed word: darkey
@@ -1277,7 +1277,7 @@ Removed definition for 'sexual': A message with sexual content
 Removed definition for 'sexual': A sexual act where a married person has sex with another person while their spouse watches
 Removed definition for 'sexually': a pair of twins, who are sexually promiscuous
 Removed word: fuck
-Removed definition for 'sex': A smell of genitals or sex
+Removed definition for 'genitals': A smell of genitals or sex
 Removed definition for 'sex': A friend with whom you have sex
 Removed word: clusterfuck
 Removed definition for 'spunky': The quality or state of being tenacious, energetic, spunky.
@@ -1285,11 +1285,11 @@ Removed definition for 'sexual': The quality of being adulterous, involving sexu
 Removed definition for 'sexual': A lifestyle or pattern of behavior characterized by self-indulgence and lack of restraint, especially one involving sexual promiscuity and rejection of religious or other moral authority.
 Removed definition for 'sperm': An immunologically specific substance produced by animal sperm to implement attraction by the egg before fertilization.
 Removed definition for 'sex': The name ‘ecdysteroid’ refers to the insect moulting and sex hormones which include ecdysone and its homologues such as 20-hydroxyecdysone.
-Removed definition for 'sexual': The state or quality of being sexy, of possessing the traits of sexual appeal.
+Removed definition for 'sexy': The state or quality of being sexy, of possessing the traits of sexual appeal.
 Removed definition for 'bombers': a light cruiser in which torpedo tubes and 6-inch low-angle guns were replaced by ten 4-inch high-angle guns to provide larger warships with protection against high-altitude bombers.
-Removed definition for 'sexual': thoughts about sex or sexual encounters.
+Removed definition for 'sex': thoughts about sex or sexual encounters.
 Removed definition for 'vibrator': A concrete vibrator is an industrial vibrator that consolidates freshly poured concrete so that trapped air and excess water are released and the concrete settles firmly in place in the formwork.
-Removed definition for 'sexual': A sex toy is an object or device that is primarily used to facilitate human sexual pleasure, such as a dildo or vibrator.
+Removed definition for 'sex': A sex toy is an object or device that is primarily used to facilitate human sexual pleasure, such as a dildo or vibrator.
 Removed definition for 'cock': A cock ring is a ring that can be placed around a penis, usually at the base, primarily to slow the flow of blood from the erect penile tissue, thus maintaining an erection for a much longer period of time.
 Removed definition for 'cock': A cock ring made of leather and animal hair.
 Removed definition for 'snuff': Any product at least partially made of consumable tobacco leaves, such as cigarettes, chewing tobacco or snuff.
@@ -1329,7 +1329,7 @@ Removed word: retard
 Removed word: retard
 Removed word: retard
 Removed definition for 'Nazi': free from Nazi ideology or detach from Nazi allegiance
-Removed definition for 'Nazi': cause or force to adopt Nazism or a Nazi character
+Removed definition for 'Nazism': cause or force to adopt Nazism or a Nazi character
 Removed definition for 'sexual': give an artificially banal or sexual quality to
 Removed definition for 'sex': remove the qualities typical of one's sex
 Removed definition for 'sexual': make sexual, endow with sex, attribute sex to
@@ -1397,7 +1397,7 @@ Removed definition for 'sex': have sex with
 Removed definition for 'sex': have sex without being married
 Removed word: fornicate
 Removed definition for 'sex': engage freely in promiscuous sex, often with the husband or wife of one's friends
-Removed definition for 'whore': have unlawful sex with a whore
+Removed definition for 'sex': have unlawful sex with a whore
 Removed word: whore
 Removed word: wench
 Removed definition for 'sex': induce to have sex
@@ -1458,7 +1458,7 @@ Removed word: chink
 Removed definition for 'sexual': enjoy in a sexual way
 Removed definition for 'orgasm': experience orgasm
 Removed word: bung
-Removed definition for 'sexual': deprive of sex or sexual powers
+Removed definition for 'sex': deprive of sex or sexual powers
 Removed word: fag
 Removed word: penetrate
 Removed definition for 'prostitute': have a customer, of a prostitute
@@ -1563,8 +1563,8 @@ Removed word: bastard
 Removed word: crappy
 Removed word: shitty
 Removed definition for 'sexual': of sexual organs
-Removed definition for 'sex': sexually attracted to members of the opposite sex
-Removed definition for 'sex': sexually attracted to members of your own sex
+Removed definition for 'sexually': sexually attracted to members of the opposite sex
+Removed definition for 'sexually': sexually attracted to members of your own sex
 Removed definition for 'sexually': sexually attracted to both sexes
 Removed word: squirting
 Removed definition for 'sexually': sexually exciting or gratifying
@@ -1584,7 +1584,7 @@ Removed word: phallic
 Removed definition for 'sex': being the sex (of plant or animal) that produces fertilizable gametes (ova) from which offspring develop
 Removed definition for 'sexual': having an ambiguous sexual identity
 Removed definition for 'sexual': having sexual characteristics intermediate between those of male and female
-Removed definition for 'sexual': having internal reproductive organs of one sex and external sexual characteristics of the other sex
+Removed definition for 'sex': having internal reproductive organs of one sex and external sexual characteristics of the other sex
 Removed definition for 'sex': not distinguished on the basis of sex
 Removed definition for 'sexually': mated sexually
 Removed definition for 'sexually': not mated sexually
@@ -1624,7 +1624,7 @@ Removed word: pussy
 Removed definition for 'sexual': marked by or tending to arouse sexual desire or interest
 Removed word: sexy
 Removed definition for 'sexual': feeling great sexual desire
-Removed definition for 'masturbation': sexually satisfying yourself (as by masturbation)
+Removed definition for 'sexually': sexually satisfying yourself (as by masturbation)
 Removed word: autoerotic
 Removed definition for 'sexual': giving sexual pleasure
 Removed definition for 'sexual': suggestive of sexual impropriety
@@ -1648,7 +1648,7 @@ Removed word: sexual
 Removed definition for 'genitals': used euphemistically to refer to the genitals
 Removed definition for 'sexual': having sexual differentiation
 Removed word: sexed
-Removed definition for 'sexual': relating to only one sex or having only one type of sexual organ
+Removed definition for 'sex': relating to only one sex or having only one type of sexual organ
 Removed definition for 'sex': not having or involving sex
 Removed definition for 'sex': having no or imperfectly developed or nonfunctional sex organs
 Removed definition for 'sexual': deprived of sexual capacity or sexual attributes
@@ -1684,7 +1684,7 @@ Removed definition for 'sex': relating to or exhibiting both female and male sex
 Removed definition for 'sexual': relating to a type of sexual reproduction in which the gametes are dissimilar in some respect (as size or shape)
 Removed definition for 'sexual': relating to either of a pair of dissimilar (anisogamic) gametes combining in sexual reproduction
 Removed definition for 'anus': relating to the anus and surrounding perineum
-Removed definition for 'rectum': pertaining to the anus and rectum considered together
+Removed definition for 'anus': pertaining to the anus and rectum considered together
 Removed definition for 'sexually': of or pertaining to the sexually transmitted infection or to the parasite
 Removed definition for 'rectum': relating to or affecting the colon and the rectum
 Removed definition for 'incest': relating to or involving incest
@@ -1721,8 +1721,8 @@ Removed definition for 'rectum': of or related to or near the sigmoid colon and 
 Removed definition for 'libido': belonging to the libido
 Removed definition for 'gonads': of or relating to the gonads
 Removed definition for 'gonads': lacking gonads
-Removed definition for 'Nazis': relating to or consistent with or typical of the ideology and practice of Nazism or the Nazis
-Removed definition for 'Nazi': of or relating to or suggestive of Adolf Hitler or his Nazi regime in Germany
+Removed definition for 'Nazism': relating to or consistent with or typical of the ideology and practice of Nazism or the Nazis
+Removed definition for 'Hitler': of or relating to or suggestive of Adolf Hitler or his Nazi regime in Germany
 Removed word: fecal
 Removed definition for 'penis': of or relating to the penis
 Removed word: penile
@@ -1731,7 +1731,7 @@ Removed definition for 'scrotum': relating to or having or lying within a scrotu
 Removed word: spastic
 Removed definition for 'syphilis': of or relating to or infected with syphilis
 Removed definition for 'hymen': of or relating to the hymen
-Removed definition for 'scrotum': (of the testis) remaining in the abdomen instead of descending into the scrotum
+Removed definition for 'testis': (of the testis) remaining in the abdomen instead of descending into the scrotum
 Removed definition for 'rape': in favour of rape, used derogatively
 Removed definition for 'cocaine': High on a drug such as cocaine
 Removed word: fucked

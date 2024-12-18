@@ -16,7 +16,7 @@ logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(messag
 # Load custom word list
 with open(wordlist_path, 'r', encoding='utf-8') as f:
     profane_words = set(json.load(f))
-profanity_regexes = [re.compile(r'\b' + re.escape(word) + r'\b', re.IGNORECASE) for word in profane_words]
+combined_profanity_regex = re.compile(r'\b(?:' + '|'.join(re.escape(word) for word in profane_words) + r')\b', re.IGNORECASE)
 
 # Delete the existing database file if it exists
 if os.path.exists(db_path):
@@ -59,11 +59,10 @@ def parse_wordnet():
 
     # There are false positives, so keep word but remove definition
     def clean_definition(definition):
-        for pattern in profanity_regexes:
-            match = pattern.search(definition)
-            if match:
-                logging.info(f"Removed definition for '{match.group()}': {definition}")
-                return ""
+        match = combined_profanity_regex.search(definition)
+        if match:
+            logging.info(f"Removed definition for '{match.group()}': {definition}")
+            return ""
         return definition
 
     def parse_file(file_path, word_type, word_dict):
@@ -79,9 +78,7 @@ def parse_wordnet():
                 for word in words:
                     if is_valid_word(word, definition):
                         key = (word, word_type)
-                        if key in word_dict:
-                            word_dict[key] += "#" + definition
-                        else:
+                        if key not in word_dict:
                             word_dict[key] = definition
 
     word_dict = {}
