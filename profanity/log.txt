@@ -1276,6 +1276,7 @@ Removed definition for 'Sexual': Sexual act where a male is forced to act effemi
 Removed definition for 'sexual': A message with sexual content
 Removed definition for 'sexual': A sexual act where a married person has sex with another person while their spouse watches
 Removed definition for 'sexually': a pair of twins, who are sexually promiscuous
+Removed word: mindfuck
 Removed word: fuck
 Removed definition for 'genitals': A smell of genitals or sex
 Removed definition for 'sex': A friend with whom you have sex
@@ -1494,6 +1495,7 @@ Removed word: retard
 Removed definition for 'sexually': be sexually active
 Removed definition for 'masturbate': to masturbate while chatting online
 Removed definition for 'intercourse': to have vaginal intercourse
+Removed word: pussyfuck
 Removed definition for 'marijuana': to smoke marijuana using butane hash oil
 Removed definition for 'marijuana': to sell marijuana on a street corner
 Removed word: creampie

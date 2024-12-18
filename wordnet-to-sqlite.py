@@ -92,6 +92,7 @@ def parse_wordnet():
     # Insert all collected data into the database
     data_to_insert = [(word, word_type, definitions) for (word, word_type), definitions in word_dict.items()]
     cursor.executemany('INSERT INTO words (word, type, definitions) VALUES (?, ?, ?)', data_to_insert)
+    cursor.execute('CREATE INDEX idx_word ON words (word)')
 
 parse_wordnet()
 
