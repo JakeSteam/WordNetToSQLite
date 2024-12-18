@@ -15,9 +15,8 @@ logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(messag
 
 # Load custom word list
 with open(wordlist_path, 'r', encoding='utf-8') as f:
-    custom_word_list = json.load(f)
-compiled_profanity = [re.compile(r'\b' + re.escape(word) + r'\b', re.IGNORECASE) for word in custom_word_list]
-
+    profane_words = set(json.load(f))
+profanity_regexes = [re.compile(r'\b' + re.escape(word) + r'\b', re.IGNORECASE) for word in profane_words]
 
 # Delete the existing database file if it exists
 if os.path.exists(db_path):
@@ -53,14 +52,14 @@ def parse_wordnet():
         return re.match(r'^[ivxlcdm]+$', word) is not None and (definition.startswith('being') or definition.startswith('denoting a quantity'))
 
     def is_profanity(word):
-        if word in custom_word_list:
+        if word in profane_words:
             logging.info(f"Removed word: {word}")
             return True
         return False
 
-    # There are many false positives, so keep word but remove definition
+    # There are false positives, so keep word but remove definition
     def clean_definition(definition):
-        for pattern in compiled_profanity:
+        for pattern in profanity_regexes:
             match = pattern.search(definition)
             if match:
                 logging.info(f"Removed definition for '{match.group()}': {definition}")
@@ -68,7 +67,7 @@ def parse_wordnet():
         return definition
 
     def parse_file(file_path, word_type, word_dict):
-        print(f"Parsing ${word_type}")
+        print(f"Parsing {word_type}s")
         with open(file_path, 'r', encoding='utf-8') as f:
             for line in f:
                 if line.startswith(' ') or not line.strip():
@@ -94,12 +93,10 @@ def parse_wordnet():
     print(f"Number of words: {len(word_dict)}")
 
     # Insert all collected data into the database
-    for (word, word_type), definitions in word_dict.items():
-        cursor.execute('INSERT INTO words (word, type, definitions) VALUES (?, ?, ?)', (word, word_type, definitions))
+    data_to_insert = [(word, word_type, definitions) for (word, word_type), definitions in word_dict.items()]
+    cursor.executemany('INSERT INTO words (word, type, definitions) VALUES (?, ?, ?)', data_to_insert)
 
-# Parse WordNet files and insert data into SQLite database
 parse_wordnet()
 
-# Commit and close the database connection
 conn.commit()
 conn.close()

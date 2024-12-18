@@ -30,23 +30,23 @@ Word definitions for the same `type` are combined (e.g. with the noun `article`,
   - Any 1 character words are removed.
   - Any words with numbers are removed.
   - Any words with other characters (apostrophes, spaces) are removed.
-  - Most profane words (133) are removed.
+  - Most profane words (626) are removed.
   - Roman numerals are removed (e.g. `XVII`).
 - `type`:
   - Always `adjective` / `adverb` / `noun` / `verb`.
 - `definition`:
   - Definition of the word, will contain multiple separated by `#` if the word appears as a synonym for another word.
-  - Most profane definitions (385) are replaced with empty space.
+  - Most profane definitions (1124) are replaced with empty space.
   - May contain bracketed usage information, e.g. `(dated)`.
   - May contain special characters like `'`, `$`, `!`, `<`, `[`, etc.
 
-Profanity removal (90% of the processing time) is performed using [better_profanity 0.6.1](https://github.com/snguyenthanh/better_profanity) (with a whitelist for the word "horny", only used in a lizard context). This isn't perfect for biological words, but works quite well on the higher priority slurs. A full list of removed words and definitions is available in [removed-data.txt](/notes/removed-data.txt).
+Profanity removal (99% of the processing time) is performed using `profanity/wordlist.json` (see `profanity/log.txt` for removals).
 
 ## Reproducing results
 
 If you wish to recreate `words.db` from scratch, you can:
 
-1. Download `WNdb-3.0.tar.gz` from [WordNet](https://wordnet.princeton.edu/download/current-version).
+1. Download `WNdb-3.0.tar.gz` from [WordNet](https://wordnet.princeton.edu/download/current-version) (or any other WordNet databases).
 2. Extract it, and place the `data.x` files in `/wordnet-data/`.
 3. Run `py wordnet-to-sqlite.py`.
 
@@ -56,6 +56,6 @@ The raw data looks like this ("unknown" is the only valid noun to extract):
 08632096 15 n 03 unknown 0 unknown_region 0 terra_incognita 0 001 @ 08630985 n 0000 | an unknown and unexplored region; "they came like angels out the unknown"
 ```
 
-This script takes 10-15 seconds on an average laptop. Efficiency is not a priority (with profanity removal taking the majority of the time), as the output database only needs generating once ever.
+This script takes 6-7 minutes on an average laptop, and 30 seconds if `clean_definition` is disabled. Efficiency is not a priority, as the output database only needs generating once.
 
 Notes on WordNet's data files [are here](https://wordnet.princeton.edu/documentation/wndb5wn), this repo just does a "dumb" parse then filters out numerical data.
