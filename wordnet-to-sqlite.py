@@ -1,11 +1,23 @@
 import sqlite3
 import os
 import re
-from better_profanity import profanity
+import json
+import logging
 
-profanity.load_censor_words(whitelist_words=['horny'])
 wordnet_path = 'wordnet-data'
 db_path = 'words.db'
+wordlist_path = 'profanity/wordlist.json'
+log_file_path = 'profanity/log.txt'
+
+with open(log_file_path, 'w'):
+    pass
+logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(message)s')
+
+# Load custom word list
+with open(wordlist_path, 'r', encoding='utf-8') as f:
+    custom_word_list = json.load(f)
+compiled_profanity = [re.compile(r'\b' + re.escape(word) + r'\b', re.IGNORECASE) for word in custom_word_list]
+
 
 # Delete the existing database file if it exists
 if os.path.exists(db_path):
@@ -41,19 +53,22 @@ def parse_wordnet():
         return re.match(r'^[ivxlcdm]+$', word) is not None and (definition.startswith('being') or definition.startswith('denoting a quantity'))
 
     def is_profanity(word):
-        if profanity.contains_profanity(word):
-            print(f"Removed word: {word}")
+        if word in custom_word_list:
+            logging.info(f"Removed word: {word}")
             return True
         return False
 
     # There are many false positives, so keep word but remove definition
     def clean_definition(definition):
-        if profanity.contains_profanity(definition):
-            print(f"Removed definition: {definition}")
-            return ""
+        for pattern in compiled_profanity:
+            match = pattern.search(definition)
+            if match:
+                logging.info(f"Removed definition for '{match.group()}': {definition}")
+                return ""
         return definition
 
     def parse_file(file_path, word_type, word_dict):
+        print(f"Parsing ${word_type}")
         with open(file_path, 'r', encoding='utf-8') as f:
             for line in f:
                 if line.startswith(' ') or not line.strip():
