@@ -8,32 +8,38 @@ wordnet_path = 'wordnet-data'
 db_path = 'words.db'
 wordlist_path = 'profanity/wordlist.json'
 log_file_path = 'profanity/log.txt'
+output_file_path = 'words.txt'
+writeToText = False  # Set this flag to True to write to a text file, False to write to the database
 
+# Open the log file in write mode to clear its contents
 with open(log_file_path, 'w'):
     pass
-logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(message)s')
+logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(asctime)s - %(message)s')
 
 # Load custom word list
 with open(wordlist_path, 'r', encoding='utf-8') as f:
     profane_words = set(json.load(f))
+
+# Combine all profane words into a single regular expression
 combined_profanity_regex = re.compile(r'\b(?:' + '|'.join(re.escape(word) for word in profane_words) + r')\b', re.IGNORECASE)
 
-# Delete the existing database file if it exists
-if os.path.exists(db_path):
-    os.remove(db_path)
+if not writeToText:
+    # Delete the existing database file if it exists
+    if os.path.exists(db_path):
+        os.remove(db_path)
 
-# Connect to SQLite database (or create it)
-conn = sqlite3.connect(db_path)
-cursor = conn.cursor()
+    # Connect to SQLite database (or create it)
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
 
-# Create table
-cursor.execute('''
-CREATE TABLE IF NOT EXISTS words (
-    word TEXT,
-    type TEXT,
-    definitions TEXT
-)
-''')
+    # Create table
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS words (
+        word TEXT,
+        type TEXT,
+        definitions TEXT
+    )
+    ''')
 
 def parse_wordnet():
     def is_valid_word(word, definition):
@@ -42,7 +48,7 @@ def parse_wordnet():
             word.isalpha() and
             len(word) > 1 and
             not is_roman_numeral(word, definition) and
-            not is_profanity(word) 
+            not is_profanity(word)
         )
 
     def clean_word(word):
@@ -89,12 +95,20 @@ def parse_wordnet():
 
     print(f"Number of words: {len(word_dict)}")
 
-    # Insert all collected data into the database
-    data_to_insert = [(word, word_type, definitions) for (word, word_type), definitions in word_dict.items()]
-    cursor.executemany('INSERT INTO words (word, type, definitions) VALUES (?, ?, ?)', data_to_insert)
-    cursor.execute('CREATE INDEX idx_word ON words (word)')
+    if writeToText:
+        # Write all collected data to the output file
+        with open(output_file_path, 'w', encoding='utf-8') as f:
+            for (word, word_type), definitions in word_dict.items():
+                f.write(f"{word}|{word_type}|{definitions}\n")
+    else:
+        # Insert all collected data into the database using batch insertion
+        data_to_insert = [(word, word_type, definitions) for (word, word_type), definitions in word_dict.items()]
+        cursor.executemany('INSERT INTO words (word, type, definitions) VALUES (?, ?, ?)', data_to_insert)
+        cursor.execute('CREATE INDEX idx_word ON words (word)')
 
+# Parse WordNet files and insert data into SQLite database or write to text file
 parse_wordnet()
 
-conn.commit()
-conn.close()
+if not writeToText:
+    conn.commit()
+    conn.close()
