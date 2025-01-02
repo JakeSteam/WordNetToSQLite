@@ -8,6 +8,8 @@ words (word TEXT, type TEXT, definitions TEXT)
 
 The intended purpose is for a word game, so non-words, proper nouns, and profanity have been removed where possible.
 
+_Note: This repo also supports text file output (`words.txt`) by enabling `writeToText`._
+
 ## Sample contents
 
 Filtering `word` to `article`, alphabetical order:
