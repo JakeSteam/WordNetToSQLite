@@ -8,7 +8,12 @@ words (word TEXT, type TEXT, definitions TEXT)
 
 The intended purpose is for a word game, so non-words, proper nouns, and profanity have been removed where possible.
 
-_Note: This repo also supports text file output (`words.txt`) by enabling `writeToText`._
+## Alternate formats
+
+This repo also supports:
+
+- Text file output (`words.txt`, format `word|type|definition`) by enabling `writeToText` in `wordnet-to-sqlite.py`.
+- Structured JSON output (`words.json`, format `Map<String, List<Map<String, String>>>`) by using `wordnet-to-json.py`. Note that word types are shortened to first letter (`av` for adverb).
 
 ## Sample contents
 
