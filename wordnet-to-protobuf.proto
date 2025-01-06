@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message Definition {
+  string type = 1;
+  string definition = 2;
+}
+
+message WordEntry {
+  string word = 1;
+  repeated Definition definitions = 2;
+}
+
+message WordNet {
+  repeated WordEntry entries = 1;
+}
